@@ -1,0 +1,10 @@
+application: 2stepit
+version: 1
+runtime: python
+api_version: 1
+handlers:
+- url: /sweeper
+  static_dir: sweeper
+
+- url: /.*
+  script: huh.py

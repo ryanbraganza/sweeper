@@ -1,0 +1,29 @@
+<!doctype html>
+<head>
+<head>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.4.1.min.js"></script>
+<script type="text/javascript" src="sweeper.js"></script>
+</head>
+<body>
+<div id="board">board goes here (waiting for js to load)</div>
+<div id="timer">
+</div>
+<div id="not board">
+<pre id="log">
+</pre>
+</div>
+<form>
+
+<input type="button" id="reset" />
+</form>
+</body>
+
+
+<script type="text/javascript">
+$(function(){
+	Sweeper.init({width:5, height:5})
+});
+
+</script>
+</head>
+</html>
